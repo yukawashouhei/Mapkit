@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7D49E0EC2DE9CF53005518D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D49E0E92DE9CF53005518D9 /* ContentView.swift */; };
+		7D49E0ED2DE9CF53005518D9 /* MapkitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D49E0EA2DE9CF53005518D9 /* MapkitApp.swift */; };
+		7D49E0EE2DE9CF53005518D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D49E0E42DE9CF53005518D9 /* Preview Assets.xcassets */; };
+		7D49E0EF2DE9CF53005518D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D49E0E82DE9CF53005518D9 /* Assets.xcassets */; };
+		7D49E0F12DE9D0D9005518D9 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D49E0F02DE9D0D9005518D9 /* Location.swift */; };
+		7D49E0F52DEACF5F005518D9 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D49E0F42DEACF5F005518D9 /* LocationsDataService.swift */; };
+		7D49E0F72DEADC50005518D9 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D49E0F62DEADC50005518D9 /* LocationsView.swift */; };
+		7D49E0F92DEAFA67005518D9 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D49E0F82DEAFA67005518D9 /* LocationsViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7D49E0CD2DE9C6FE005518D9 /* Mapkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D49E0E42DE9CF53005518D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D49E0E82DE9CF53005518D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D49E0E92DE9CF53005518D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D49E0EA2DE9CF53005518D9 /* MapkitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapkitApp.swift; sourceTree = "<group>"; };
+		7D49E0F02DE9D0D9005518D9 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		7D49E0F42DEACF5F005518D9 /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		7D49E0F62DEADC50005518D9 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		7D49E0F82DEAFA67005518D9 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7D49E0CF2DE9C6FE005518D9 /* Mapkit */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Mapkit;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7D49E0CA2DE9C6FE005518D9 /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		7D49E0C42DE9C6FE005518D9 = {
 			isa = PBXGroup;
 			children = (
-				7D49E0CF2DE9C6FE005518D9 /* Mapkit */,
+				7D49E0EB2DE9CF53005518D9 /* Mapkit */,
 				7D49E0CE2DE9C6FE005518D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,61 @@
 				7D49E0CD2DE9C6FE005518D9 /* Mapkit.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7D49E0E32DE9CF53005518D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D49E0F02DE9D0D9005518D9 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D49E0E52DE9CF53005518D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D49E0E42DE9CF53005518D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D49E0E62DE9CF53005518D9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7D49E0F82DEAFA67005518D9 /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7D49E0E72DE9CF53005518D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D49E0F62DEADC50005518D9 /* LocationsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7D49E0EB2DE9CF53005518D9 /* Mapkit */ = {
+			isa = PBXGroup;
+			children = (
+				7D49E0EA2DE9CF53005518D9 /* MapkitApp.swift */,
+				7D49E0E92DE9CF53005518D9 /* ContentView.swift */,
+				7D49E0F32DEACF06005518D9 /* DataServices */,
+				7D49E0E72DE9CF53005518D9 /* Views */,
+				7D49E0E62DE9CF53005518D9 /* ViewModels */,
+				7D49E0E32DE9CF53005518D9 /* Models */,
+				7D49E0E82DE9CF53005518D9 /* Assets.xcassets */,
+				7D49E0E52DE9CF53005518D9 /* Preview Content */,
+			);
+			path = Mapkit;
+			sourceTree = "<group>";
+		};
+		7D49E0F32DEACF06005518D9 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				7D49E0F42DEACF5F005518D9 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +125,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7D49E0CF2DE9C6FE005518D9 /* Mapkit */,
 			);
 			name = Mapkit;
 			packageProductDependencies = (
@@ -109,6 +172,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D49E0EE2DE9CF53005518D9 /* Preview Assets.xcassets in Resources */,
+				7D49E0EF2DE9CF53005518D9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D49E0F52DEACF5F005518D9 /* LocationsDataService.swift in Sources */,
+				7D49E0F92DEAFA67005518D9 /* LocationsViewModel.swift in Sources */,
+				7D49E0F12DE9D0D9005518D9 /* Location.swift in Sources */,
+				7D49E0F72DEADC50005518D9 /* LocationsView.swift in Sources */,
+				7D49E0EC2DE9CF53005518D9 /* ContentView.swift in Sources */,
+				7D49E0ED2DE9CF53005518D9 /* MapkitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
