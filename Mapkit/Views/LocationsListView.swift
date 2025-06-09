@@ -7,25 +7,32 @@
 
 import SwiftUI
 
-struct LocationListView: View {
+struct LocationsListView: View {
     
     @EnvironmentObject private var vm: LocationsViewModel
     
     var body: some View {
         List {
             ForEach(vm.locations) { location in
-                listRowView(location: location)
+                Button {
+                    vm.showNextLocation(location: location)
+                } label: {
+                    listRowView(location: location)
+                }
+                .padding(.vertical, 4)
+                .listRowBackground(Color.clear)
             }
         }
+        .listStyle(PlainListStyle())
     }
 }
 
 #Preview {
-    LocationListView()
+    LocationsListView()
         .environmentObject(LocationsViewModel())
 }
 
-extension LocationListView {
+extension LocationsListView {
     
     private func listRowView(location: Location) -> some View {
         HStack {

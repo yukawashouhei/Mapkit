@@ -15,6 +15,7 @@
 		7D49E0F52DEACF5F005518D9 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D49E0F42DEACF5F005518D9 /* LocationsDataService.swift */; };
 		7D49E0F72DEADC50005518D9 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D49E0F62DEADC50005518D9 /* LocationsView.swift */; };
 		7D49E0F92DEAFA67005518D9 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D49E0F82DEAFA67005518D9 /* LocationsViewModel.swift */; };
+		7D789F032DF5832C00955A0A /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D789F022DF5832C00955A0A /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7D49E0F42DEACF5F005518D9 /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		7D49E0F62DEADC50005518D9 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		7D49E0F82DEAFA67005518D9 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		7D789F022DF5832C00955A0A /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				7D49E0F62DEADC50005518D9 /* LocationsView.swift */,
+				7D789F022DF5832C00955A0A /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				7D49E0F92DEAFA67005518D9 /* LocationsViewModel.swift in Sources */,
 				7D49E0F12DE9D0D9005518D9 /* Location.swift in Sources */,
 				7D49E0F72DEADC50005518D9 /* LocationsView.swift in Sources */,
+				7D789F032DF5832C00955A0A /* LocationsListView.swift in Sources */,
 				7D49E0EC2DE9CF53005518D9 /* ContentView.swift in Sources */,
 				7D49E0ED2DE9CF53005518D9 /* MapkitApp.swift in Sources */,
 			);
