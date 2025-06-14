@@ -65,8 +65,16 @@ class LocationsViewModel: ObservableObject {
         // Check if the currentIndex is valid
         let nextIndex = currentIndex + 1
         guard locations.indices.contains(nextIndex) else {
+            // Next Index is not valid
+            // Restart from 0
             
+            guard let firstLocation = locations.first else { return }
+            showNextLocation(location: locations[0])
             return
         }
+        
+        // Next index is Valid
+        let nextLocation = locations[nextIndex]
+        showNextLocation(location: nextLocation)
     }
 }
