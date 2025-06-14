@@ -87,7 +87,7 @@ extension LocationPreviewView {
     
     private var NextButton: some View {
         Button {
-            
+            vm.nextButtonPressed()
         } label: {
             Text("Next")
                 .font(.headline)
