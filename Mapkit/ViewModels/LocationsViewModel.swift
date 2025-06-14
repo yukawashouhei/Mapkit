@@ -68,7 +68,7 @@ class LocationsViewModel: ObservableObject {
             // Next Index is not valid
             // Restart from 0
             
-            guard let firstLocation = locations.first else { return }
+            guard locations.first != nil else { return }
             showNextLocation(location: locations[0])
             return
         }
