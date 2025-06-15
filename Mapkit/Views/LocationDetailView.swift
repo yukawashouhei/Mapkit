@@ -63,6 +63,7 @@ extension LocationDetailView {
             Text(location.name)
                 .font(.largeTitle)
                 .fontWeight(.semibold)
+                .foregroundStyle(.primary)
             Text(location.cityName)
                 .font(.title2)
                 .foregroundColor(.secondary)
