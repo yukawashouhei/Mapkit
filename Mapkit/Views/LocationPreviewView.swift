@@ -76,7 +76,9 @@ extension LocationPreviewView {
     
     private var learnMoreButton: some View {
         Button {
-            vm.sheetLocation = location
+            DispatchQueue.main.async {
+                vm.sheetLocation = location
+            }
         } label: {
             Text("Learn more")
                 .font(.headline)
