@@ -24,8 +24,26 @@ struct LocationsView: View {
                 Spacer()
                 locationsPreviewStack
             }
+            
+            // Current location button
+            VStack {
+                Spacer()
+                HStack {
+                    Spacer()
+                    currentLocationButton
+                        .padding(.trailing, 20)
+                        .padding(.bottom, 200)
+                }
+            }
         }
-        .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in LocationDetailView(location: location)
+        .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in 
+            LocationDetailView(location: location)
+        }
+        .onAppear {
+            // Request location permission on first app launch
+            if vm.locationAuthorizationStatus == .notDetermined {
+                vm.requestLocationPermission()
+            }
         }
     }
 }
@@ -69,6 +87,7 @@ extension LocationsView {
     
     private var mapLayer: some View {
         Map(coordinateRegion: $vm.mapRegion,
+            showsUserLocation: vm.locationAuthorizationStatus == .authorizedWhenInUse || vm.locationAuthorizationStatus == .authorizedAlways,
             annotationItems: vm.locations,
             annotationContent: { location in
             MapAnnotation(coordinate: location.coordinates) {
@@ -81,6 +100,22 @@ extension LocationsView {
                     }
             }
         })
+    }
+    
+    private var currentLocationButton: some View {
+        Button(action: vm.centerOnUserLocation) {
+            Image(systemName: "location.fill")
+                .font(.title2)
+                .foregroundColor(.white)
+                .frame(width: 50, height: 50)
+                .background(
+                    Circle()
+                        .fill(Color.blue)
+                        .shadow(color: .black.opacity(0.3), radius: 4, x: 0, y: 2)
+                )
+        }
+        .disabled(vm.userLocation == nil)
+        .opacity(vm.userLocation == nil ? 0.5 : 1.0)
     }
     
     private var locationsPreviewStack: some View {

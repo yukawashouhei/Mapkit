@@ -24,6 +24,8 @@ struct LocationDetailView: View {
                     Divider()
                     descriptionSection
                     Divider()
+                    actionButtons
+                    Divider()
                     mapLayer
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -83,6 +85,42 @@ extension LocationDetailView {
             }
         }
     }
+    
+    private var actionButtons: some View {
+        HStack(spacing: 16) {
+            // Learn more button (Wikipedia link)
+            if let url = URL(string: location.link) {
+                Link(destination: url) {
+                    HStack {
+                        Image(systemName: "book.fill")
+                        Text("Learn more")
+                    }
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 44)
+                }
+                .buttonStyle(.borderedProminent)
+            }
+            
+            // Go here button
+            Button(action: {
+                vm.showRouteToLocation(location)
+                vm.sheetLocation = nil
+            }) {
+                HStack {
+                    Image(systemName: "location.fill")
+                    Text("Go here")
+                }
+                .font(.headline)
+                .frame(maxWidth: .infinity)
+                .frame(height: 44)
+            }
+            .buttonStyle(.borderedProminent)
+            .disabled(vm.userLocation == nil)
+            .opacity(vm.userLocation == nil ? 0.5 : 1.0)
+        }
+    }
+    
     private var mapLayer: some View {
         Map(coordinateRegion: .constant(MKCoordinateRegion(
             center: location.coordinates,
