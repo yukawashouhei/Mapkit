@@ -198,17 +198,6 @@ class LocationsDataService {
                 "hongakuji-3",
             ],
             link: "https://ja.wikipedia.org/wiki/%E6%9C%AC%E8%A6%9A%E5%AF%BA_(%E9%8E%8C%E5%80%89%E5%B8%82)"),
-        Location(
-            name: "妙隆寺",
-            cityName: "小町",
-            coordinates: CLLocationCoordinate2D(latitude: 35.3206389, longitude: 139.5545278),
-            description: "妙隆寺は、神奈川県鎌倉市小町にある日蓮宗の寺院。鎌倉江の島七福神の一つで「寿老人」を祀る。",
-            imageNames: [
-                "myoryuji-1",
-                "myoryuji-2",
-                "myoryuji-3",
-            ],
-            link: "https://ja.wikipedia.org/wiki/%E5%A6%99%E9%9A%86%E5%AF%BA_(%E9%8E%8C%E5%80%89%E5%B8%82)"),
     ]
     
 }
