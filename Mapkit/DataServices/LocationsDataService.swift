@@ -17,9 +17,9 @@ class LocationsDataService {
             coordinates: CLLocationCoordinate2D(latitude: 35.3258, longitude: 139.5564),
             description: "鶴岡八幡宮は、神奈川県鎌倉市雪ノ下にある神社。武家源氏、鎌倉武士の守護神。鎌倉初代将軍源頼朝ゆかりの神社として知られ、鎌倉の文化の起点ともなっています。",
             imageNames: [
-                "tsuruoka-hachimangu-1",
-                "tsuruoka-hachimangu-2",
-                "tsuruoka-hachimangu-3",
+                "tsurugaoka-hachimangu-1",
+                "tsurugaoka-hachimangu-2",
+                "tsurugaoka-hachimangu-3",
             ],
             link: "https://ja.wikipedia.org/wiki/%E9%B6%B4%E5%B2%A1%E5%85%AB%E5%B9%A1%E5%AE%AE"),
         Location(
@@ -116,22 +116,11 @@ class LocationsDataService {
             coordinates: CLLocationCoordinate2D(latitude: 35.3228, longitude: 139.5422),
             description: "銭洗弁財天宇賀福神社は、神奈川県鎌倉市佐助にある神社。境内の洞窟にある清水で硬貨などを洗うと増えるとされることから、銭洗弁天の名で知られる。",
             imageNames: [
-                "zeniarai-benten-1",
-                "zeniarai-benten-2",
-                "zeniarai-benten-3",
+                "zeniarai-benzaiten-1",
+                "zeniarai-benzaiten-2",
+                "zeniarai-benzaiten-3",
             ],
             link: "https://ja.wikipedia.org/wiki/%E9%8A%AD%E6%B4%97%E5%BC%81%E8%B2%A1%E5%A4%A9%E5%AE%87%E8%B3%80%E7%A6%8F%E7%A5%9E%E7%A4%BE"),
-        Location(
-            name: "覚園寺",
-            cityName: "二階堂",
-            coordinates: CLLocationCoordinate2D(latitude: 35.3311, longitude: 139.5658),
-            description: "覚園寺は、神奈川県鎌倉市二階堂にある真言宗泉涌寺派の寺院。山号を鷲峰山と称する。本尊は薬師三尊。鎌倉宮の裏手に位置する。",
-            imageNames: [
-                "kakuonji-1",
-                "kakuonji-2",
-                "kakuonji-3",
-            ],
-            link: "https://ja.wikipedia.org/wiki/%E8%A6%9A%E5%9C%92%E5%AF%BA"),
         Location(
             name: "浄光明寺",
             cityName: "扇ガ谷",
@@ -165,17 +154,6 @@ class LocationsDataService {
                 "komyoji-3",
             ],
             link: "https://ja.wikipedia.org/wiki/%E5%85%89%E6%98%8E%E5%AF%BA_(%E9%8E%8C%E5%80%89%E5%B8%82)"),
-        Location(
-            name: "杉本寺",
-            cityName: "二階堂",
-            coordinates: CLLocationCoordinate2D(latitude: 35.3225833, longitude: 139.5675556),
-            description: "杉本寺は、神奈川県鎌倉市二階堂にある天台宗の寺院。鎌倉最古の寺とされ、苔むした石段が有名。坂東三十三観音霊場の第一番札所。",
-            imageNames: [
-                "sugimotodera-1",
-                "sugimotodera-2",
-                "sugimotodera-3",
-            ],
-            link: "https://ja.wikipedia.org/wiki/%E6%9D%89%E6%9C%AC%E5%AF%BA"),
         Location(
             name: "寿福寺",
             cityName: "扇ガ谷",
