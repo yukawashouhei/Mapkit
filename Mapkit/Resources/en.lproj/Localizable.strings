@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings (English)
+  
+  Kamakura Temple App
+*/
+
+// Common
+"learn_more" = "Learn More";
+"go_here" = "Go Here";
+"read_more_wikipedia" = "Read more on Wikipedia";
+
+// Location Names
+"tsurugaoka_hachimangu" = "Tsurugaoka Hachimangu";
+"kenchoji" = "Kenchoji Temple";
+"hasedera" = "Hasedera Temple";
+"engakuji" = "Engakuji Temple";
+"kotokuin" = "Kotokuin Temple";
+"meigetsuin" = "Meigetsuin Temple";
+"hokokuji" = "Hokokuji Temple";
+"tokeiji" = "Tokeiji Temple";
+"jochiji" = "Jochiji Temple";
+"zeniarai_benzaiten" = "Zeniarai Benzaiten Shrine";
+"jokomyoji" = "Jokomyoji Temple";
+"kaizoji" = "Kaizoji Temple";
+"komyoji" = "Komyoji Temple";
+"jufukuji" = "Jufukuji Temple";
+"anyoin" = "Anyoin Temple";
+"egaratenjinsha" = "Egara Tenjin Shrine";
+"hongakuji" = "Hongakuji Temple";
+
+// City Names
+"yukinoshita" = "Yukinoshita";
+"yamanouchi" = "Yamanouchi";
+"hase" = "Hase";
+"sasuke" = "Sasuke";
+"ogigayatsu" = "Ogigayatsu";
+"zaimokuza" = "Zaimokuza";
+"omachi" = "Omachi";
+"nikaido" = "Nikaido";
+"komachi" = "Komachi";
+
+// Descriptions
+"tsurugaoka_hachimangu_desc" = "Tsurugaoka Hachimangu is a Shinto shrine located in Yukinoshita, Kamakura City, Kanagawa Prefecture. It is the guardian deity of the Minamoto samurai clan and the Kamakura warriors. Known as a shrine associated with Minamoto no Yoritomo, the first shogun of Kamakura, it is also the starting point of Kamakura's culture.";
+"kenchoji_desc" = "Kenchoji is a Zen temple located in Yamanouchi, Kamakura City, Kanagawa Prefecture. It is the head temple of the Kenchoji school of Rinzai Zen Buddhism and ranks first among the Five Mountains of Kamakura. The temple grounds are designated as a National Historic Site.";
+"hasedera_desc" = "Hasedera is a Jodo sect temple located in Hase, Kamakura City, Kanagawa Prefecture. The main deity is the Eleven-faced Kannon. It is the fourth temple of the Bando Thirty-Three Kannon Pilgrimage and is commonly known as 'Hase Kannon'.";
+"engakuji_desc" = "Engakuji is a temple located in Yamanouchi, Kamakura City, Kanagawa Prefecture. It is the head temple of the Engakuji school of Rinzai Zen Buddhism and ranks second among the Five Mountains of Kamakura. The main deity is the Crowned Shakyamuni Buddha, founded by Hojo Tokimune and opened by Mugaku Sogen.";
+"kotokuin_desc" = "Kotokuin is a Jodo sect temple located in Hase, Kamakura City, Kanagawa Prefecture. The main deity is the National Treasure Amida Nyorai seated statue, commonly known as the 'Great Buddha of Kamakura'. The mountain name is Daiizan, and it is formally called Daiizan Kotokuin Seishoji.";
+"meigetsuin_desc" = "Meigetsuin is a Rinzai Kenchoji school temple located in Yamanouchi, Kamakura City, Kanagawa Prefecture. The mountain name is Fukugenzan. It is known as the hydrangea temple.";
+"hokokuji_desc" = "Hokokuji is a Rinzai Kenchoji school temple located in Jomyoji, Kamakura City, Kanagawa Prefecture. It is known for its bamboo garden and is also called the 'Bamboo Temple'.";
+"tokeiji_desc" = "Tokeiji is a Rinzai Engakuji school temple located in Yamanouchi, Kamakura City, Kanagawa Prefecture. It was once a nunnery and was known as a divorce temple during the Edo period.";
+"jochiji_desc" = "Jochiji is a Rinzai Engakuji school temple located in Yamanouchi, Kamakura City, Kanagawa Prefecture. It ranks fourth among the Five Mountains of Kamakura. The mountain name is Kinpozan.";
+"zeniarai_benzaiten_desc" = "Zeniarai Benzaiten Ugafuku Shrine is a Shinto shrine located in Sasuke, Kamakura City, Kanagawa Prefecture. It is known as Zeniarai Benten because it is said that washing coins and other items in the clear water in the cave on the temple grounds will make them multiply.";
+"jokomyoji_desc" = "Jokomyoji is a Shingon sect temple located in Ogigayatsu, Kamakura City, Kanagawa Prefecture. The mountain name is Senyuzan. The main deity is Amida Nyorai.";
+"kaizoji_desc" = "Kaizoji is a Rinzai Kenchoji school temple located in Ogigayatsu, Kamakura City, Kanagawa Prefecture. The mountain name is Jubuzan. The main deity is Yakushi Nyorai.";
+"komyoji_desc" = "Komyoji is a Jodo sect temple located in Zaimokuza, Kamakura City, Kanagawa Prefecture. The mountain name is Tenshozan. The main deity is Amida Nyorai.";
+"jufukuji_desc" = "Jufukuji is a Rinzai Kenchoji school temple located in Ogigayatsu, Kamakura City, Kanagawa Prefecture. It ranks third among the Five Mountains of Kamakura. Founded by Hojo Masako and opened by Eisai.";
+"anyoin_desc" = "Anyoin is a Jodo sect temple located in Omachi, Kamakura City, Kanagawa Prefecture. It is the 3rd temple of the Bando Thirty-Three Kannon and Kamakura Thirty-Three Kannon Pilgrimage. It is also known as a famous spot for azaleas.";
+"egaratenjinsha_desc" = "Egara Tenjin Shrine is a Shinto shrine located in Nikaido, Kamakura City, Kanagawa Prefecture. It enshrines Sugawara no Michizane and is worshipped as a god of learning. It is one of the Three Great Tenjin Shrines of Japan.";
+"hongakuji_desc" = "Hongakuji is a Nichiren sect temple located in Komachi, Kamakura City, Kanagawa Prefecture. It is also called 'Higashi Minobu' because the remains of Nichiren from Kuonji on Mount Minobu were divided and enshrined here."; 
